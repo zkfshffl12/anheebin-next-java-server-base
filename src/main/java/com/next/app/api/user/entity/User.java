@@ -1,5 +1,8 @@
 package com.next.app.api.user.entity;
 
+import org.springframework.stereotype.Service;
+
+import io.swagger.v3.oas.annotations.servers.Server;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,6 +13,7 @@ import lombok.AllArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Service
 public class User {
     
     @Id
